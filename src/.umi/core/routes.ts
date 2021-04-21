@@ -12,7 +12,7 @@ export function getRoutes() {
     "exact": true
   },
   {
-    "path": "/",
+    "path": "/test",
     "component": require('@/pages/test/index').default,
     "exact": true
   }
