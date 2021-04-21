@@ -1,6 +1,6 @@
 import styles from './index.less';
 
-export default function IndexPage() {
+export default function Test() {
   return (
     <div>
       <h1 className={styles.title}>Page index</h1>
