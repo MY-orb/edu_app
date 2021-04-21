@@ -1,0 +1,118 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@MY-orb 
+MY-orb
+wyd
+Template
+1
+6
+0
+Code
+Issues
+3
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+wyd/.gitignore
+
+wangyidong feat: style
+Latest commit 4069562 on 20 Feb
+ History
+ 0 contributors
+72 lines (60 sloc)  902 Bytes
+  
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.lock
+project.xcworkspace
+
+# Android/IntelliJ
+#
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+mapping.txt
+.settings/
+desktop.ini
+build
+
+# CocoaPods
+/ios/Pods/
+
+# vscode
+settings.json
+
+# code-push
+/*.zip
+
+#build
+dist/
+
+# lock
+*.lock
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
