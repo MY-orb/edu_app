@@ -9,8 +9,4 @@ export default defineConfig({
     { path: '/test', component: '@/pages/test/index' },
   ],
   fastRefresh: {},
-  eslintConfig: {
-    // extends: [require.resolve('@umijs/fabric/dist/eslint')],
-    extends: 'react-app',
-  },
 });
