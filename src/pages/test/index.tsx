@@ -3,6 +3,13 @@ import { Component } from 'react';
 import TestView from './views/TestView';
 import { Button } from 'antd';
 
+const dates = [{ name: 'join', age: 24 }];
+
+export interface Item {
+  name: string;
+  age: number;
+}
+
 class Test extends Component {
   constructor(props: any) {
     super(props);
@@ -23,11 +30,21 @@ class Test extends Component {
     // eslint-disable-next-line no-console
     console.log('componentWillUnmount===卸载');
   }
+  renderTest = (type: string) => {
+    return type;
+  };
 
   render() {
     return (
       <div>
-        <div></div>
+        <div>
+          {dates.map((item: Item, index: number) => (
+            <div key={index.toString()}>
+              <div>{item?.name}</div>
+              <div>{item?.age}</div>
+            </div>
+          ))}
+        </div>
         <div />
         <h1 className={styles.title}>test</h1>
         <TestView />
