@@ -30,9 +30,9 @@ class Test extends Component {
     // eslint-disable-next-line no-console
     console.log('componentWillUnmount===卸载');
   }
-  renderTest = (type: string) => {
-    return type;
-  };
+  // renderTest = (type: string) => {
+  //   return type;
+  // };
 
   render() {
     return (
@@ -46,7 +46,7 @@ class Test extends Component {
           ))}
         </div>
         <div />
-        <h1 className={styles.title}>test</h1>
+        <h1 className={styles.title}>Test</h1>
         <TestView />
         <Button>1</Button>
       </div>

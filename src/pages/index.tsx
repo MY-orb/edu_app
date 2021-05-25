@@ -9,7 +9,7 @@ export default function IndexPage() {
         history.push('/test');
       }}
     >
-      <h1 className={styles.title}>ggg</h1>
+      <h1 className={styles.title}>Index</h1>
     </div>
   );
 }
