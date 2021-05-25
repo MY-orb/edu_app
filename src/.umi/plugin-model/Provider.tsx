@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from '/Users/dd-ream/Desktop/wyd_work/edu_app/src/.umi/plugin-initial-state/models/initialState';
+import initialState from '/Users/wtqfolder/Desktop/study/edu/edu_app/src/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from '/Users/dd-ream/Desktop/wyd_work/edu_app/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from './helpers/dispatcher';
 // @ts-ignore
-import Executor from '/Users/dd-ream/Desktop/wyd_work/edu_app/node_modules/@umijs/plugin-model/lib/helpers/executor';
+import Executor from './helpers/executor';
 // @ts-ignore
-import { UmiContext } from '/Users/dd-ream/Desktop/wyd_work/edu_app/node_modules/@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from './helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 

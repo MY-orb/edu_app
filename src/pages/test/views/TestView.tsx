@@ -6,7 +6,7 @@ const TestView = () => {
     <>
       <div>this is hook</div>
       <div>{count}</div>
-      <div onClick={() => setCount(count + 1)}>add Count</div>
+      <button onClick={() => setCount(count + 1)}>add Count</button>
     </>
   );
 };
