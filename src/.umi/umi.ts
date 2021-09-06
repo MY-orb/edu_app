@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/wtqfolder/Desktop/study/edu/edu_app/node_modules/umi/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/wtqfolder/Desktop/study/edu/edu_app/node_modules/umi/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/dd-ream/Desktop/wyd_work/edu_app/node_modules/umi/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/dd-ream/Desktop/wyd_work/edu_app/node_modules/umi/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
@@ -37,7 +37,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.4.22',
+      version: '3.4.11',
     };
   
 
